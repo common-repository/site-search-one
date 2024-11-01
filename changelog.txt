@@ -1,0 +1,245 @@
+== Changelog ==
+
+= 2.0.0.3535 (2024-04-09) =
+
+* Enhancement: Improved scroll behaviour when navigating search result pages.
+* Enhancement: Improved error handling when displaying search page.
+
+= 2.0.0.3525 (2024-04-08) =
+
+* Fix: Bug when WP Dark Mode not installed.
+
+= 2.0.0.3523 (2024-04-08) =
+
+* Fix: Compatibility issue with WP Dark Mode
+* Fix: Search page not displaying on themes that do not include jQuery by default.
+
+= 2.0.0.3516 (2024-04-03) =
+
+* Fix: Division by zero error caused by some environments incorrectly reporting 0 CPU cores.
+
+= 2.0.0.3516 (2024-04-03) =
+
+* Fix: Additional load management issue in some environments causes plugin to become unable to sync.
+
+= 2.0.0.3513 (2024-04-02) =
+
+* Fix: Error in some environments related to load management caused plugin to be unable to sync.
+
+= 2.0.0.3512 (2024-02-05) =
+* Enhancement: Improved live indexing display
+* Enhancement: Added server load management during sync, to prevent CPU issues during sync.
+
+= 2.0.0.3489 (2023-11-09) =
+* Enhancement: Improved reliability when the long-running threads debug setting is disabled.
+* Fix: Plugin conflict with SiteOrigin Page Builder when creating a new post.
+* Added: Batch upload size debug setting, intended for performance restricted WordPress installations
+
+= 2.0.0.3465 (2023-08-14) =
+* Fix: Custom Placeholder text not applied to Widget
+* Fix: Search page may incorrectly reload search results on page scroll under certain themes when used with a widget.
+* Fix: Dark mode not detected under some conditions.
+
+= 2.0.0.3459 (2023-08-02) =
+* Fix: Error when creating a new search page if Premium Plugin is not installed.
+
+= 2.0.0.3445 (2023-01-27) =
+* Improvement: Both the Site Search ONE and Site Search ONE Premium Plugins are no longer dependent on the plugin being
+  installed in the default plugin directory to detect each other.
+  Must use premium plugin build 1100 or greater.
+* Fix: $title $html not escaped.
+* Fixed several urls escaped with esc_attr instead of esc_url
+* Fixed several html attributes used esc_html_e instead of esc_attr_e
+* Security: Replaced some instances of HTML string concatenation with templating
+
+= 2.0.0.3434 (2023-01-18) =
+* Changed: Visit Site Link changed to https://sitesearchone.com
+* Enhancement: security - added nonce verification to site-search-one-searchbar widget
+* Enhancement: PDF Viewer opens file faster
+* Fix: various files updated to improve security/comply with the latest WordPress Coding standards
+* Removed: field-hider.js unused empty function
+
+= 2.0.0.3379 (2022-12-23) =
+* Removed Bootstrap 3 library.
+* Enhancement: Search Page and Search Widget now use Bootstrap 5.0
+* Fix: files updated to comply with the latest WordPress Coding standards (phpcs --standard=WordPress)
+
+= 2.0.0.3170 (2022-12-06) =
+* Fix: Tested Up To Value now 6.1
+* Fix: moment.js removed, in Core
+* Enhancement: Further sanitization, escaping, and validation
+* Enhancement: Further escaping of echoed data
+* Fix: Unsafe SQL calls
+* Fix: remove old hit viewer file
+
+= 2.0.0.3163 (2022-12-01) =
+* Fix: hitviewer fails to outline hit if there is only one hit.
+
+= 2.0.0.3162 (2022-11-23) =
+* Updated Bootstrap 3 from version 3.3.7 to 3.4.1
+* Updated Bootstrap 4 from version 4.1.3 to 4.6.2
+* Security: Query parameters sanitized when rendering search page to prevent cross site scripting (xss) attacks
+* Enhancement: Renamed various classes and functions in the plugin to avoid potential conflicts with third-party plugins
+* Enhancement: The Search Page, Search Widget, hit viewer and PDF Viewer now use Templates; it is possible to add scripts and styles to customize the templates by enqueuing them from functions.php (refer to User Guide)
+* Enhancement: Compatible with Site Search ONE Premium plugin 1.1.0+1090 or later to search Media Library and PDF files.
+* Fix: Readme.txt Stable Tag does not match Plugin Version
+* Fix: Token mechanism fetches additional tokens if the installation has not yet generated any or ran out, to prevent ‘This page is not configured correctly’ error from appearing on search pages.
+* Added: changelog.txt added to keep readme.txt under 10kb.
+
+
+= 1.9.1.3028 (2022-10-19) =
+* Fix: Search bar widget - Categorised search - filter button doesn't clear when changing indexes
+
+= 1.9.0+3021 (2022-10-14) =
+* Fix: Mime-type drop down in search page filters is not populated under certain conditions
+
+= 1.9.0+3010 (2022-09-12) =
+* Fix: Global link format Settings not honoured if Search page Options are edited.
+* Fix: Display name in search results may show header/footer text for PDF attachments. It will now use the Title field as supplied in either the post editor or WordPress Dashboard>Media>Edit
+* Fix: Highlights on PDF files may be in wrong position if the user has the page zoomed in.
+* Enhancement: Media Attachments now use the Description field as edited from WordPress Dashboard>Media>Edit as the excerpt field displayed in search results, if a description is supplied.
+* Enhancement: PDF hit highlighting now uses the PDF stored in the index instead of the PDF stored on the WordPress site.
+* Added: PDF Viewer now has X close button.
+
+= 1.9.0+2993 (2022-08-15) =
+* Added: Indexing of attached or unattached files in the Media Library, compatible with WP Media Category Management (WP MCM) plugin, needs premium plugin 1.1.0+1087
+* Enhancement: Search bar Widget and use of All Words, Any Words options beyond 30-days no longer require a premium subscription.
+
+
+= 1.9.0+2834 (2022-05-18) =
+* Added: Dashboard now has a Global Settings page, for Link format, Widget CSS, Search page CSS, Document CSS.
+* Fixed: ‘rest_cookie_invalid_nonce’ error message prevalent on sites that use caching plugins. No longer uses WordPress nonce tokens.
+
+= 1.8.0+2808 (2022-04-05) =
+* Enhancement: data traffic reduction – decrease queue check frequency. When page is browser active tab and no queued items check in 30s else every 10s.
+* Enhancement: data traffic reduction – Cron task has 5 min delay.
+* Enhancement: optimizations in initial scan search to reduce CPU usage.
+* Enhancement: Options > WooCommerce fields such as SKU, ProductColor can be displayed in HitViewer by selection from list.
+* Fix: Hit-viewer does not display in WordPress Twenty-Twenty theme
+* Fix: to prevent search pages going into a refresh loop under certain conditions.
+* Fix: search analytics logic to avoid duplicate results, one with 0 results. (Premium 1.0.0+1056)
+* Fix: plugin continues to update WP Search Insights/Search Analytics tables even when the plugins have been deactivated or uninstalled.
+* Added: Options > Link format can include WooCommerce fields such as SKU, ProductColor, ProductSize, etc.
+* Added: Options > Link format > %%image tag now requires Site Search ONE Premium plug-in (1.0.0+1065)
+* Added: Options > Link format > Featured Image/WooCommerce Product Image display. Requires Site Search ONE Premium plug-in (1.0.0+1055)
+* Added: Options > Search Bar > options for Stemming and Synonyms defaults and if they appear under the search bar and search widgets.
+* Added: Integration with WP Site Insights and MWT:Search Analytics plugins. Requires Site Search ONE Premium plug-in (1.0.0+1049)
+
+= 1.7.0+2664 (2022-03-02) =
+* Added: All Search Pages|Pause/Resume button to prevent edits or imports from triggering an index update.
+* Added: Options > Link format| Featured Image can be displayed using %%img:_featured_img%% with an optional class name  argument e.g. %%img:_featured_img:thumbnail%%
+* Added: Options > Link format and Custom CSS now allows Excerpt field to be displayed instead of snippet with hit highlighting in words of context, conditional if search query is empty or not.
+* Added: WordPress Dashboard now displays a Pause/Resume sync button to halt synchronising
+* Enhancement: Cache select field values/xfirstword response moved from before carrying out queued tasks to after.
+* Fix: On first install a table failed to be created.
+* Fix: Cookie check fail (403) on search page if left open.
+
+= 1.6.0+2618 (2022-02-03) =
+* Added: Initial Search cache
+* Added: Search Results now shows total item count in parenthesis.
+* Added: Options > Link format: set amount of context to display in search results.
+* Added: Options > Facet selection.
+* Added: Results Link format option now controls everything below a search result link, allows multiple lines of text and supports HTML, making it possible to create highly customized search result appearance, display pictures, etc. Clicking the words of context will now also open the search results page
+* Enhancement: Search Widget allows width of index drop-down to be adjusted.
+* Enhancement: Facet count value div has its own class, to allow it to be hidden by CSS. (e.g. to show more text in mobile view where space is limited)
+* Enhancement: Filters on Searchbar and Search Widget no longer show word ‘contains’ for ACF Select drop-down fields.
+* Enhancement: ACF True/False fields with Custom UI Text show as facet check-boxes instead of filters, a blank entry will not display a checkbox.
+* Enhancement: Filters now support ACF true/false Custom UI text
+* Enhancement: Local caches of filters and filter select values improved
+* Enhancement: Result Links, Published date can be formatted by passing the format in parenthesis.
+* Enhancement: fragmentation/obsolete counts excluded from API call during filter updates (faster updates)
+* Fix: ‘This page is not configured correctly’ error message with multiple sites (e.g. multiple local, staging, live) or incompatible JQuery version.
+* Fix: Search Page may fail to load if search results not yet cached in some circumstances.
+* Fix: WP Dashboard|Site Search ONE|All Search Pages – column width incorrect in some installations.
+* Fix: Rebuild with large numbers of filters sometimes caused timeout.
+* Fix: field name >64 characters causes sync queue to get stuck.
+
+= 1.5.0+2380 (2021-12-03) =
+* Enhancement: Result sorting (for Options:’Initial search’ and Sort control on search page) was by Date Modified, is now by Published date; allows sort order to be easily set from WordPress Dashboard.
+* Added: Support for WP Dark Mode plugin (provisional, other dark mode switching plugins may be supported)
+* Added: Options: Link format section for each search page to allow use of fields with before and after text, as well as title.
+* Fix: Dark Mode on first load with some browsers
+* Fix: Enumerable fields with hyphens now display correctly in Filters
+* Fix: tokens per site issue
+* Fix: Search Widget calendar outside display area
+* Fix: Search Widget(premium) showing gap under widget in dark mode
+
+= 1.4.0+2325 (2021-11-18) =
+* Added: Options: Custom CSS section for each search page to affect appearance of search results page and appearance of document in hit-viewer.
+* Added: Search Widget (premium) Custom CSS section to affect appearance of search widget.
+* Added: Options: choose field data to be displayed at bottom of hit-viewer.
+* Fix: Invalid cookie message on search page if left open >12 hr. (page refreshes automatically).
+* Fix: Search Widget (premium) gap under widget when search type and stemming & synonyms options are hidden
+
+= 1.3.0+2254 (2021-11-09) =
+* Added: Supports enumerable fields with spaces (in drop-down filters list)
+* Added: Admin|All Indexes displays ‘indexes from other sites’ (e.g. staging and local sites), allows deletion of unwanted indexes.
+* Added: New debug option to disable long running threads to work around a limitation of some WordPress installations.
+* Fix: On themes where the content area  is 100% width, the search page will centre itself correctly.
+* Fix: On some installations, the Hit Viewer Overlay could be partially or fully obscured by a HTML element that has a high z-index.
+* Fix: Premium – uploaded User Synonyms file was lost on a Rebuild.
+* Fix: Navigation buttons issue
+
+= 1.2.0+2119 (2021-10-19 =
+* Added: Option to hide field data from bottom of hit-viewer
+* Added: Hit Viewer displays as an overlay (When ‘Open in new Window’ not checked)
+* Enhancement: Field names containing underscores are no longer indexed
+* Enhancement: Improvements to bulk uploader stability/reliability
+* Fix: illegal characters in document field data may cause uploads to fail
+* Fix: Index name may appear in database as to-do
+
+= 1.1.0+1995 (2021-09-24) =
+* Added: Options: User(front end) selection of Search type All Words, Any Words, Boolean (Premium add on)
+* Added: Search bar Widget – user selection of Search type All Words, Any Words, Boolean – option (premium add on)
+* Fix: Pagination by page link broken
+* Fix: API Key may be forgotten by plugin on some installations when transients are lost
+
+= 1.0.0+1832 (2021-08-16) =
+* Added: Sorting by Newest/Oldest
+* Enhancement: Pagination First/Last  Prev/Next
+* Enhancement: Hit Viewer faster display
+* Added: Search Pages|Reset Plugin button functionality
+* Added: Options: Search type All Words, Any Words, Boolean selection per search page
+* Added: Options| User Thesaurus Plus option (premium add-on)
+* Added: Admin screen warns if connected to test server
+* Fixed: Database initialization error
+* Fixed: Facet missing more… links
+* Fixed: Facets mobile layout
+* Fixed: Search bar Widget mobile layout
+
+= 0.4.0+1546 (RC1) (2021-06-06) =
+* Added: Search bar Widget – Placeholder text support and border radius options (premium add on)
+* Added: Search bar Widget – Filters| support for ACF Plugin -Select field type (premium add on)
+* Added: Filters| support for ACF Plugin -Select field type
+* Fixed: Filters – bug handling field names with spaces
+* Fixed: “This Page is not Configured Correctly” error, token mechanism issue
+
+= 0.4.0+1484 (2021-06-29) =
+* Fixed: Options|Filters some items in list were duplicated
+* Fixed: Options|Filters ss1-noindex was showing in list
+* Added: Options| Hide search-bar, Hide stemming and synonyms check-boxes on search-page
+* Added: API now has flags for Natural Language search – All words, Any Words, etc. and other search options e.g. phonic (premium add on)
+* Added: API Ability to upload user defined synonym files from User Thesaurus Plus (premium add on), WordNet option if User defined synonyms are used.
+* Added: Search bar Widget with filter and index drop down list, optional synonym and stemming check-boxes below, Background & Text Color selection (premium add on)
+
+= 0.3.0+1279 (2021-06-14) =
+* Added: Translation template and compiled pseudo-language test files site-search-one_psuedo.mo and site-search-one-fr_FR.mo; change the site language under Settings > General > Site Language to French and click Save Changes to see all English text replaced by pseudo-language (see User Guide for details)
+* Added: categorized search – ‘search all’ option
+
+= 0.2.0+1225 (2021-06-03) =
+* Fixed: Search Page|Edit Post – Category – All Posts – check boxes were incorrectly enabled
+* Enhancement: Search Page|Options Filter selection is faster
+* Enhancement: Activation is faster
+
+= 0.2.0+1193 (2021-05-28) =
+* Added: Facets based on Categories & Subcategories
+* Added: Pages By Category & Subcategory selection
+* Added: Supports bearer token authentication
+* (This version connect to the live mode REST API endpoint, previous version connected to a heavily logged test server which was much slower)
+
+= 0.1.0+1099 (2021-04-28) =
+* Fixed: Options > Filters only the first checkbox got restored
+* Fixed: Branding capitalize ONE throughout
+
+= 0.1.0+1089 (23 April 2021) =
+* Initial public beta

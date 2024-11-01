@@ -1,0 +1,119 @@
+* {
+	font-family: "Open Sans", "Segoe UI", sans-serif;
+  }
+
+html {
+  background-color: gray;
+}
+
+body {
+  max-width: 800px;
+  background-color: white;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  bottom: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 25px;
+  -webkit-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.49);
+  -moz-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.49);
+  box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.49);
+}
+
+.color_1 {
+	background-color: #E0F145;
+}
+
+.color_2 {
+	background-color: #7EE12D;
+}
+
+.color_3 {
+	background-color: #DE5DF4;
+}
+
+.color_4 {
+	background-color: #22E1E1;
+}
+
+.color_5 {
+	background-color: #28D6A0;
+}
+
+.active_hit {
+	box-shadow: 0 0 2pt 2pt #75dbef;
+}
+
+.page-nav{
+	width: 100%;
+}
+
+.prev-btn-container{
+	width: 25%;
+	float: left;
+	text-align: right;
+	min-height: 1px;
+}
+
+.next-btn-container{
+	text-align: left;
+}
+
+.index-selector{
+	width: 100%;
+}
+#search-results-container
+{
+	clear:both;
+}
+
+br
+{
+	margin: 16px;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: "Open Sans", "Segoe UI", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: "Open Sans", "Segoe UI", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: "Open Sans", "Segoe UI", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+blockquote {
+	font-family: "Open Sans", "Segoe UI", sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+pre {
+	font-family: "Open Sans", "Segoe UI", sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+	text-align: justify;
+	text-justify: inter-word;
+}

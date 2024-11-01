@@ -1,0 +1,540 @@
+# Copyright (C) 2021 ElectronArt Design Ltd
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Search ONE 1.0.0 (1888)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/site-search-one\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-09-01T17:49:55+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: site-search-one\n"
+
+#. Plugin Name of the plugin
+msgid "Site Search ONE"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "www.dtsearch.co.uk"
+msgstr ""
+
+#. Description of the plugin
+msgid "WordPress Site Search Powered by dtSearch"
+msgstr ""
+
+#. Author of the plugin
+msgid "ElectronArt Design Ltd"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/electronart/"
+msgstr ""
+
+#: admin/class-site-search-one-admin.php:89
+msgid "All Search Pages"
+msgstr ""
+
+#: admin/class-site-search-one-admin.php:96
+#: admin/view-new-search-page.php:483
+msgid "New Search Page"
+msgstr ""
+
+#: admin/class-site-search-one-admin.php:204
+msgid "Syncing - %s items remaining"
+msgstr ""
+
+#: admin/class-site-search-one-admin.php:205
+msgid "Sync Complete!"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:304
+msgid "Index posts belonging to categories:"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:316
+#: admin/view-new-search-page.php:640
+msgid "Index all posts"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:319
+msgid "Do not index posts"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:337
+msgid "Index pages, excluding:"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:348
+msgid "Index pages belonging to categories:"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:351
+#: admin/view-new-search-page.php:552
+msgid "Index all pages"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:358
+msgid "Index selected pages:"
+msgstr ""
+
+#: admin/class-site-search-one-search-page.php:362
+msgid "Do not index pages"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:9
+msgid "Site Search ONE - Search bar"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:254
+msgid "Search page:"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:278
+#: admin/view-customise-search-page.php:158
+msgid "Hide Stemming and Synonyms Checkboxes"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:282
+msgid "Background Color:"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:286
+msgid "Text Color:"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:290
+msgid "Placeholder Text:"
+msgstr ""
+
+#: admin/class-ss1-searchbar-widget.php:295
+msgid "Border Radius:"
+msgstr ""
+
+#: admin/view-customise-search-page.php:15
+msgid "Options - %s"
+msgstr ""
+
+#: admin/view-customise-search-page.php:22
+msgid "Results"
+msgstr ""
+
+#: admin/view-customise-search-page.php:29
+msgid "Initial Search"
+msgstr ""
+
+#: admin/view-customise-search-page.php:36
+msgid "Open in new Window"
+msgstr ""
+
+#: admin/view-customise-search-page.php:43
+msgid "Link to original page"
+msgstr ""
+
+#: admin/view-customise-search-page.php:50
+msgid "Link to hit viewer"
+msgstr ""
+
+#: admin/view-customise-search-page.php:58
+msgid "Filters"
+msgstr ""
+
+#: admin/view-customise-search-page.php:66
+msgid "Display all fields"
+msgstr ""
+
+#: admin/view-customise-search-page.php:72
+#: admin/view-new-search-page.php:557
+#: admin/view-new-search-page.php:645
+msgid "Include:"
+msgstr ""
+
+#: admin/view-customise-search-page.php:79
+#: admin/view-new-search-page.php:562
+msgid "Exclude:"
+msgstr ""
+
+#: admin/view-customise-search-page.php:84
+msgid "Sync in progress - Some fields may not be detected yet"
+msgstr ""
+
+#: admin/view-customise-search-page.php:95
+msgid "Indexes"
+msgstr ""
+
+#: admin/view-customise-search-page.php:133
+msgid "Index name"
+msgstr ""
+
+#: admin/view-customise-search-page.php:144
+msgid "Search bar"
+msgstr ""
+
+#: admin/view-customise-search-page.php:151
+msgid "Hide search bar"
+msgstr ""
+
+#: admin/view-customise-search-page.php:167
+#: public/ss1-searchbar-bs3.php:188
+#: public/ss1-searchpage-bs3.php:190
+msgid "Synonyms"
+msgstr ""
+
+#: admin/view-customise-search-page.php:174
+msgid "User Thesaurus Plus:"
+msgstr ""
+
+#: admin/view-customise-search-page.php:178
+msgid "Browse..."
+msgstr ""
+
+#: admin/view-customise-search-page.php:179
+msgid "No file selected"
+msgstr ""
+
+#: admin/view-customise-search-page.php:185
+msgid "WordNet"
+msgstr ""
+
+#: admin/view-customise-search-page.php:196
+msgid "Search type"
+msgstr ""
+
+#: admin/view-customise-search-page.php:204
+msgid "Any words"
+msgstr ""
+
+#: admin/view-customise-search-page.php:210
+msgid "All words"
+msgstr ""
+
+#: admin/view-customise-search-page.php:216
+msgid "Boolean (and, or, not, ...)"
+msgstr ""
+
+#: admin/view-customise-search-page.php:226
+#: admin/view-customise-search-page.php:552
+#: admin/view-customise-search-page.php:558
+#: admin/view-customise-search-page.php:577
+#: admin/view-customise-search-page.php:708
+#: admin/view-new-search-page.php:774
+msgid "Save"
+msgstr ""
+
+#: admin/view-customise-search-page.php:532
+#: admin/view-customise-search-page.php:628
+#: admin/view-new-search-page.php:164
+msgid "Saving..."
+msgstr ""
+
+#: admin/view-customise-search-page.php:550
+#: admin/view-customise-search-page.php:576
+#: admin/view-customise-search-page.php:706
+#: admin/view-search-pages.php:173
+#: admin/view-search-pages.php:211
+#: admin/view-search-pages.php:244
+#: admin/view-search-pages.php:299
+#: admin/view-search-pages.php:331
+#: admin/view-search-pages.php:352
+#: admin/view-set-api-key.php:48
+msgid "Something went wrong. Check your connection and try again."
+msgstr ""
+
+#: admin/view-customise-search-page.php:557
+msgid "Select Synonyms file"
+msgstr ""
+
+#: admin/view-customise-search-page.php:597
+msgid "Must select a filters drop-down option"
+msgstr ""
+
+#: admin/view-customise-search-page.php:618
+msgid "Must choose how results open"
+msgstr ""
+
+#: admin/view-customise-search-page.php:700
+msgid "Saved"
+msgstr ""
+
+#: admin/view-new-search-page.php:249
+msgid "Please enter a name"
+msgstr ""
+
+#: admin/view-new-search-page.php:268
+msgid "Please select at least one category"
+msgstr ""
+
+#: admin/view-new-search-page.php:321
+msgid "Add a page..."
+msgstr ""
+
+#: admin/view-new-search-page.php:485
+msgid "Edit Search Page - %s"
+msgstr ""
+
+#: admin/view-new-search-page.php:495
+msgid "Page Title"
+msgstr ""
+
+#: admin/view-new-search-page.php:513
+#: admin/view-search-pages.php:25
+msgid "Pages"
+msgstr ""
+
+#: admin/view-new-search-page.php:567
+msgid "Add Page..."
+msgstr ""
+
+#: admin/view-new-search-page.php:601
+msgid "By category:"
+msgstr ""
+
+#: admin/view-new-search-page.php:605
+#: admin/view-new-search-page.php:650
+msgid "Categories"
+msgstr ""
+
+#: admin/view-new-search-page.php:620
+#: admin/view-new-search-page.php:709
+msgid "Posts"
+msgstr ""
+
+#: admin/view-new-search-page.php:667
+msgid "Post types"
+msgstr ""
+
+#: admin/view-new-search-page.php:684
+msgid "All post types"
+msgstr ""
+
+#: admin/view-new-search-page.php:689
+msgid "Selected post types:"
+msgstr ""
+
+#: admin/view-search-pages.php:15
+msgid "Search Pages"
+msgstr ""
+
+#: admin/view-search-pages.php:17
+msgid "Add New"
+msgstr ""
+
+#: admin/view-search-pages.php:28
+msgid "Default"
+msgstr ""
+
+#: admin/view-search-pages.php:48
+#: public/ss1-searchbar-bs3.php:1017
+#: public/ss1-searchpage-bs3.php:961
+#: public/ss1-searchpage-bs3.php:1569
+#: public/ss1-searchpage-bs3.php:2090
+#: public/ss1-searchpage-bs3.php:2234
+msgid "Loading..."
+msgstr ""
+
+#: admin/view-search-pages.php:53
+msgid "Delete"
+msgstr ""
+
+#: admin/view-search-pages.php:56
+msgid "Rebuild"
+msgstr ""
+
+#: admin/view-search-pages.php:59
+msgid "Compress"
+msgstr ""
+
+#: admin/view-search-pages.php:62
+msgid "Update"
+msgstr ""
+
+#: admin/view-search-pages.php:65
+msgid "Options"
+msgstr ""
+
+#: admin/view-search-pages.php:68
+msgid "Edit"
+msgstr ""
+
+#: admin/view-search-pages.php:92
+msgid "Reset Plugin"
+msgstr ""
+
+#: admin/view-search-pages.php:97
+msgid "Reset"
+msgstr ""
+
+#: admin/view-search-pages.php:130
+msgid "Obsolete Documents:"
+msgstr ""
+
+#: admin/view-search-pages.php:133
+msgid "Fragmentation:"
+msgstr ""
+
+#: admin/view-search-pages.php:137
+msgid "Indexing %s documents"
+msgstr ""
+
+#: admin/view-search-pages.php:156
+#: admin/view-search-pages.php:199
+#: admin/view-search-pages.php:225
+msgid "Please wait..."
+msgstr ""
+
+#: admin/view-search-pages.php:189
+msgid "Rebuild index?"
+msgstr ""
+
+#: admin/view-search-pages.php:191
+msgid "Notice: Search results will be unavailable until indexing complete"
+msgstr ""
+
+#: admin/view-search-pages.php:220
+msgid "Compress Index?"
+msgstr ""
+
+#: admin/view-search-pages.php:222
+msgid "Depending on the size of the Index, the operation may take a while"
+msgstr ""
+
+#: admin/view-search-pages.php:240
+msgid "Compression started."
+msgstr ""
+
+#: admin/view-search-pages.php:311
+msgid "Delete %s? This cannot be undone."
+msgstr ""
+
+#: admin/view-search-pages.php:314
+msgid "Deleting..."
+msgstr ""
+
+#: admin/view-search-pages.php:338
+msgid "Are you sure you want to reset the plugin?"
+msgstr ""
+
+#: admin/view-set-api-key.php:18
+msgid "Invalid API Key"
+msgstr ""
+
+#: admin/view-set-api-key.php:44
+msgid "Error: %s <br> Please try again."
+msgstr ""
+
+#: admin/view-set-api-key.php:56
+msgid "Connect to your Site Search ONE account"
+msgstr ""
+
+#: admin/view-set-api-key.php:57
+msgid "Paste the key below to continue"
+msgstr ""
+
+#: admin/view-set-api-key.php:59
+msgid "Submit"
+msgstr ""
+
+#: public/ss1-hitviewer.php:182
+#: public/ss1-searchpage-bs3.php:1785
+#: public/ss1-searchpage-bs3.php:1809
+msgid "Something went wrong. Check connection and try again."
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:73
+#: public/ss1-searchpage-bs3.php:72
+msgid "From"
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:79
+#: public/ss1-searchpage-bs3.php:77
+msgid "To"
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:187
+#: public/ss1-searchpage-bs3.php:189
+msgid "Stemming"
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:195
+#: public/ss1-searchpage-bs3.php:197
+msgid "Apply"
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:196
+#: public/ss1-searchpage-bs3.php:198
+msgid "Clear Filter(s)"
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:495
+#: public/ss1-searchbar-bs3.php:1021
+#: public/ss1-searchpage-bs3.php:795
+#: public/ss1-searchpage-bs3.php:965
+msgid "Choose..."
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:987
+#: public/ss1-searchpage-bs3.php:931
+msgid "Between"
+msgstr ""
+
+#: public/ss1-searchbar-bs3.php:990
+#: public/ss1-searchpage-bs3.php:934
+msgid "Contains"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:172
+msgid "Search"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:211
+msgid "Sort"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:214
+msgid "By Relevance"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:215
+msgid "Alphabetical (A-Z)"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:216
+msgid "Alphabetical (Z-A)"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:217
+msgid "Published (Newest first)"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:218
+msgid "Published (Oldest first)"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:268
+#: public/ss1-searchpage-bs3.php:1987
+msgid "Close"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:1152
+msgid "More…"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:1180
+msgid "All Fields »"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:1607
+msgid "No Results."
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:1620
+msgid "Showing Results %1 - %2 of %3"
+msgstr ""
+
+#: public/ss1-searchpage-bs3.php:1781
+#: public/ss1-searchpage-bs3.php:1805
+msgid "Session Expired. Please wait..."
+msgstr ""

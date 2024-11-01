@@ -1,0 +1,94 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ss1-validation-error {
+	color: firebrick;
+}
+
+.ss1-hidden {
+	display: none !important;
+}
+
+.ss1-disabled {
+	color: #a8a8a8;
+}
+
+.ss1-buttons-row > button{
+	margin-right: 1em;
+}
+
+.ss1-buttons-row > button:last-child{
+	margin-right: 0;
+}
+
+.ss1-list {
+	list-style-type: square;
+	padding-left: 1.5em;
+	padding-top: 0.4em;
+}
+
+.ss1-splist th{
+	vertical-align: top;
+}
+
+.ss1-splist .ss1-checkbox-default {
+	margin-top: 20px;
+}
+
+.ss1-ix-status-box {
+	padding: 0.7em;
+	border: lightgray;
+	border-style: double;
+}
+
+.column-ss1-default-cb {
+	width: 7em;
+}
+
+#table-other-site-indexes button {
+	float: right;
+}
+
+.ss1-horizontal-scroller {
+	display: flex;
+	overflow-x: auto;
+	max-width: 80%;
+	border-style: inset;
+	border-color: lightgray;
+	padding: 0.5em;
+	border-radius: 0.2em;
+	border-width: 0.15em;
+	width: max-content;
+}
+
+.ss1-checkbox-postbox-350 {
+	max-width: 350px;
+	max-height: 350px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.ss1-cat-select li>ul {
+	margin-left: 1.5em;
+	margin-top: 0.5em;
+}
+
+.ss1-checkbox-postbox-350:not(:first-child) {
+	margin-left: 1em;
+}
+
+#ss1-ongoing-dsp {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#ss1-ongoing-dsp.hidden {
+	display: none;
+}
+
+#ss1-ongoing-dsp a.button{
+	margin-top: 1.2em;
+}
